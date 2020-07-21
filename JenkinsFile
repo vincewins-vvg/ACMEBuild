@@ -1,16 +1,14 @@
 pipeline{
+    
     agent any
+    
     stages{
-        stage('Git Checkout'){
-            steps{
-                git 'https://github.com/TestLeafPages/ACME_Build_002'
-            }
-        }
-        stage('Maven Build'){
+        
+        stage('Compile stage'){
+            
             steps{
                 sh 'mvn -version'
-                sh 'mvn clean install'
             }
-        }
+      	}
     }
 }
