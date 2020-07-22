@@ -15,7 +15,7 @@ pipeline{
             
             steps{
                 script{
-                   build 'Selenium_Grid_Docker'
+                   build 'Demo_Test_Deployment'
                 }
             }
         }    
