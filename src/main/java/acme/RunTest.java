@@ -33,7 +33,7 @@ public class RunTest {
 		Thread.sleep(2000);
 		Actions builder = new Actions(driver);
 		builder.moveToElement(eleVendors).perform();
-		Thread.sleep(2000);
+		Thread.sleep(2000); 
 		driver.findElement(By.linkText("Search for Vendor")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.id("vendorName")).sendKeys("Blue Lagoon");
