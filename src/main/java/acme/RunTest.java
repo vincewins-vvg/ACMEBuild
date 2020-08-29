@@ -14,7 +14,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-public class RunTest {
+public class RunTest { 
 	
 	public ChromeDriver driver;
 	
